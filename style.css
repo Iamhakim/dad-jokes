@@ -19,7 +19,7 @@ body {
 .container {
   background-color: #fff;
   padding: 50px 20px;
-  width: 400px;
+  width: 600px;
   max-width: 100%;
   text-align: center;
   border-radius: 10px;
@@ -32,7 +32,23 @@ h3 {
 }
 .joke {
   margin: 50px auto;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 40px;
   font-size: 30px;
+}
+.btn {
+  background-color: #9f68e0;
+  color: #fff;
+  padding: 14px 40px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:active {
+  transform: scale(0.98);
 }
